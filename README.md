@@ -12,7 +12,7 @@
 
 Now you can click the share button on YouTube/Instagram/TikTok/etc, select “Download MP4” at the bottom, let it work, and it’ll automatically save to your Photos.
 
-## Usage:
+## How it works:
 
 1. User taps the share button on a video
 2. User taps the "Download MP4" Shortcut

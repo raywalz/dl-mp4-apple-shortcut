@@ -1,6 +1,6 @@
-Download videos directly to your iPhone or iPad from YouTube, TikTok, Instagram, etc.
+## Download videos directly to your iPhone or iPad from YouTube, TikTok, Instagram, etc.
 
-1. Install https://apps.apple.com/us/app/a-shell/id1473805438
+1. Install [a-Shell](https://apps.apple.com/us/app/a-shell/id1473805438)
 
 2. Run this command:
 
@@ -11,3 +11,14 @@ Download videos directly to your iPhone or iPad from YouTube, TikTok, Instagram,
 3. Add the shortcut when prompted
 
 Now you can click the share button on YouTube/Instagram/TikTok/etc, select “Download MP4” at the bottom, let it work, and it’ll automatically save to your Photos.
+
+## Usage:
+
+1. User clicks the share button on a video
+2. User clicks the "Download MP4" Shortcut
+3. Shortcut runs dl-mp4.sh inside a-Shell with the URL as input
+4. dl-mp4.sh runs [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download the video to Files
+5. dl-mp4.sh relaunches the Shortcut to copy the video from Files to Photos
+6. The Shortcut launches the Photos app revealing the downloaded video
+
+It downloads the video as MP4 with h264 video and m4a audio for maximum compatibility. It uses ffmpeg to convert the video if needed. It also downloads and embeds English subtitles if available.

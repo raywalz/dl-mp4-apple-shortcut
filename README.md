@@ -14,8 +14,8 @@ Now you can click the share button on YouTube/Instagram/TikTok/etc, select “Do
 
 ## Usage:
 
-1. User clicks the share button on a video
-2. User clicks the "Download MP4" Shortcut
+1. User taps the share button on a video
+2. User taps the "Download MP4" Shortcut
 3. Shortcut runs dl-mp4.sh inside a-Shell with the URL as input
 4. dl-mp4.sh runs [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download the video to Files
 5. dl-mp4.sh relaunches the Shortcut to copy the video from Files to Photos

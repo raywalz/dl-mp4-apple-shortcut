@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/install-dl-mp4.sh",
-      "permanent": true
-    }
-  ]
-}

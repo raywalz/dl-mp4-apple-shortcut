@@ -13,6 +13,10 @@
 
 Now you can click the share button on YouTube/Instagram/TikTok/etc, select “Download MP4” at the bottom, let it work, and it’ll automatically save to your Photos.
 
+## Supported sites:
+We're using yt-dlp to download the videos. Here's yt-dlp's list of supported sites: 
+https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
+
 ## How it works:
 
 1. User taps the share button on a video

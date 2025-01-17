@@ -7,6 +7,7 @@
    ```bash
    curl -sL https://ray.mn/d | sh
    ```
+   ([ray.mn/d](https://ray.mn/d) is just a redirect to the .sh file in this repository)
 
 3. Add the shortcut when prompted
 
